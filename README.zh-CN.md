@@ -1,4 +1,11 @@
 # Fire-rs
+
+![crates.io](https://img.shields.io/badge/crates.io-v0.2.2--alpha.0-orange.svg?longCache=true)
+
+![docs.rs](https://docs.rs/fire-rs/badge.svg?version=0.2.2-alpha.0)
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fun4wut/fire-rs/Test%20and%20Publish)
+
 受到 [Python-fire](<https://github.com/google/python-fire>) 的启发，写了Rust版本。
 
 利用过程宏，在编译期修改 `AST` 来达成。

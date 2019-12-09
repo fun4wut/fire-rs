@@ -25,4 +25,4 @@ jobs:
       - name: Publish core
         run: cd ./fire-rs-core && cargo publish && cd .. || true
       - name: Publish wrapper
-        run: cargo publish
+        run: cargo publish || true

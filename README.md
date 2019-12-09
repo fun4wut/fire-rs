@@ -1,4 +1,11 @@
 # Fire-rs
+
+![crates.io](https://img.shields.io/badge/crates.io-v0.2.2--alpha.0-orange.svg?longCache=true)
+
+![docs.rs](https://docs.rs/fire-rs/badge.svg?version=0.2.2-alpha.0)
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fun4wut/fire-rs/Test%20and%20Publish)
+
 Use the attribute macro to convert a ordinary function into a command line application (aka `cli`).
 
 Inspired by [Python-fire](<https://github.com/google/python-fire>)
@@ -19,12 +26,12 @@ the program will output `3.1 is cool`
 
 ## TODO
 
-- [x] normal args
-- [x] named args
-- [x] doc
-- [x] test
-- [x] publish to`crates.io`
+- [x] Normal args
+- [x] Named args
+- [x] Doc
+- [x] Test
+- [x] Publish to`crates.io`
 - [x] CI/CD
-- [ ] defalut args
-- [ ] multiple functions
-- [ ] deal with errors
+- [ ] Defalut args
+- [ ] Multiple functions
+- [ ] Deal with errors
