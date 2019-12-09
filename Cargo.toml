@@ -1,6 +1,6 @@
 [package]
 name = "fire-rs"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["fun4wut <nihouze@163.com>"]
 description = "A Rust implementation of Python-fire"
 repository = "https://github.com/fun4wut/fire-rs"
