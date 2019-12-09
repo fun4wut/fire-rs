@@ -1,5 +1,6 @@
 # Fire-rs
 Use the attribute macro to convert a ordinary function into a command line application (aka `cli`).
+
 Inspired by [Python-fire](<https://github.com/google/python-fire>)
 
 ## Usage
@@ -23,7 +24,7 @@ the program will output `3.1 is cool`
 - [x] doc
 - [x] test
 - [x] publish to`crates.io`
-- [ ] CI/CD
+- [x] CI/CD
 - [ ] defalut args
 - [ ] multiple functions
 - [ ] deal with errors
