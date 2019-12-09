@@ -16,3 +16,9 @@ proc-macro = true
 [dependencies]
 syn = {version = "1.0", features = ["full"]}
 quote = "1.0"
+
+# cargo-release config
+[package.metadata.release]
+disable-tag = true
+disable-publish = true
+disable-push = true
