@@ -17,6 +17,7 @@ jobs:
       run: cargo test --verbose
       
   publish:
+    needs: test
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v1
