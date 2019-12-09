@@ -27,5 +27,5 @@
 pub use fire_rs_core::fire;
 
 /// Clap Re-Export.
-/// 
+///
 pub use clap::{App, Arg};
