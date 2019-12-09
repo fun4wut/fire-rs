@@ -1,0 +1,21 @@
+[package]
+name = "fire-rs"
+version = "0.2.0"
+authors = ["fun4wut <nihouze@163.com>"]
+description = "A Rust implementation of Python-fire"
+repository = "https://github.com/fun4wut/fire-rs"
+categories = ["command-line-interface", "development-tools"]
+keywords = ["fire", "cli"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+documentation = "https://docs.rs/fire-rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[test]]
+name = "tests"
+path = "tests/progress.rs"
+
+[dependencies]
+fire-rs-core = {path="./fire-rs-core"}
+clap = "2.33"

@@ -1,0 +1,18 @@
+[package]
+name = "fire-rs-core"
+version = "0.2.0"
+authors = ["fun4wut <nihouze@163.com>"]
+description = "The core proc-macro crate for fire-rs"
+repository = "https://github.com/fun4wut/fire-rs"
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+documentation = "https://docs.rs/fire-rs-core"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version = "1.0", features = ["full"]}
+quote = "1.0"
