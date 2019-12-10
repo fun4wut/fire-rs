@@ -17,5 +17,5 @@ name = "tests"
 path = "tests/progress.rs"
 
 [dependencies]
-fire-rs-core = {path="./fire-rs-core", version="*"}
+fire-rs-core = {path="./fire-rs-core", version="0.2"}
 clap = "2.33"

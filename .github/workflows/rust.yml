@@ -1,6 +1,9 @@
 name: Test and Publish
 
-on: [push]
+on: 
+  push:
+    tags:
+      - v* # only trigger when push tags
 
 jobs:
   test:
