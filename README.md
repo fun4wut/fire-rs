@@ -1,10 +1,10 @@
 # Fire-rs
 
-![crates.io](https://img.shields.io/badge/crates.io-v0.2.2--alpha.0-orange.svg?longCache=true)
+[![](https://img.shields.io/github/workflow/status/fun4wut/fire-rs/Test%20and%20Publish)](https://github.com/fun4wut/fire-rs/actions)
+[![](https://img.shields.io/badge/crates.io-v0.2.2--alpha.0-orange.svg?longCache=true)](https://crates.io/crates/fire-rs)
+[![](https://docs.rs/fire-rs/badge.svg?version=0.2.2-alpha.0)](https://docs.rs/fire-rs)
 
-![docs.rs](https://docs.rs/fire-rs/badge.svg?version=0.2.2-alpha.0)
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fun4wut/fire-rs/Test%20and%20Publish)
 
 Use the attribute macro to convert a ordinary function into a command line application (aka `cli`).
 
@@ -30,8 +30,10 @@ the program will output `3.1 is cool`
 - [x] Named args
 - [x] Doc
 - [x] Test
-- [x] Publish to`crates.io`
+- [x] Publish to `crates.io`
 - [x] CI/CD
-- [ ] Defalut args
+- [ ] `&str` problem
+- [ ] `unused_` warning
+- [ ] Default args
 - [ ] Multiple functions
 - [ ] Deal with errors
