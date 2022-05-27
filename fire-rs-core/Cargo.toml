@@ -1,6 +1,6 @@
 [package]
 name = "fire-rs-core"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["fun4wut <nihouze@163.com>"]
 description = "The core proc-macro crate for fire-rs"
 repository = "https://github.com/fun4wut/fire-rs"
